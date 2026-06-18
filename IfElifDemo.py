@@ -1,3 +1,9 @@
+print("-------------------------------------------")
+print("-------- Ticket pricing software ----------")
+print("-------------------------------------------")
+
+
+
 print("Enter your age : ")
 age = int(input())
 
