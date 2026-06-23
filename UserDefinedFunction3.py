@@ -1,11 +1,13 @@
 #Accept : One Parameter
-#Return : Nothing
+#Return : One Value
 
 def Marvellous(Value):
     print("Inside marvellous",Value)
+    return 21
 
 def main():
-    Marvellous(11)
+    Ret = Marvellous(11)
+    print("Return value is ", Ret)
 
 if __name__ == "__main__":
     main()
