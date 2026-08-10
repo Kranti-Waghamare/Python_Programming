@@ -1,0 +1,20 @@
+CheckEven = lambda No : No % 2 == 0
+
+Increment = lambda No : No + 1
+
+
+def main():
+    Data = [12, 13, 8, 19, 22, 45, 66, 86]
+
+    print("Input data is  : ",Data)
+
+    FData = list(filter(CheckEven, Data))
+
+    print("Data after filter : " , FData)
+
+    MData = list(map(Increment, FData))
+
+    print("Data after map : ", MData)
+
+if __name__ == "__main__":
+    main()
