@@ -25,6 +25,5 @@ class Demo():
         print(cls.Value2)
 
 #call with object
-
 dobj = Demo()
 dobj.gun()
