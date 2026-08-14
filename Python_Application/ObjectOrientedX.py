@@ -17,10 +17,10 @@ Value1 = int(input())
 print("Enter the second number : ")
 Value2 = int(input())
 
-Ret = Aobj.Addition(Value1, Value2)     #ISSUE/ERROR
+Ret = Aobj.Addition(Value1, Value2)    
 
 print("Addition is : ", Ret)
 
-Ret = Aobj.Substraction(Value1, Value2)   #ISSUE/ERROR
+Ret = Aobj.Substraction(Value1, Value2)   
 
 print("Substraction is : ", Ret)
