@@ -8,21 +8,17 @@ def Substraction(No1, No2):
 
     return Ans
 
-def main():
-    print("Enter the first number : ")
-    Value1 = int(input())
 
-    print("Enter the second number : ")
-    Value2 = int(input())
+print("Enter the first number : ")
+Value1 = int(input())
 
-    Ret = Addition(Value1, Value2)
+print("Enter the second number : ")
+Value2 = int(input())
 
-    print("Addition is : ", Ret)
+Ret = Addition(Value1, Value2)
 
-    Ret = Substraction(Value1, Value2)
+print("Addition is : ", Ret)
 
-    print("Substraction is : ", Ret)
+Ret = Substraction(Value1, Value2)
 
-
-if __name__ == "__main__":
-    main()
+print("Substraction is : ", Ret)
