@@ -16,7 +16,7 @@ def main():
 
         print("Exception occur due to second operand is zero : ",zobj)
 
-        print("Result is : ", Ans)
+    print("Result is : ", Ans)
 
 if __name__ == "__main__":
     main()
