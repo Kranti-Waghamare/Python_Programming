@@ -10,7 +10,8 @@ def main():
 
     schedule.every(1).minute.do(Display)
 
-    #ISSUE
+    #Issue
+    
 
 if __name__ == "__main__":
     main()
