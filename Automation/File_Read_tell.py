@@ -5,7 +5,7 @@ def main():
 
         print("File offset is : ", fobj.tell())
 
-        Data = fobj.read()
+        Data = fobj.read(10)
         
         print(Data)
 
