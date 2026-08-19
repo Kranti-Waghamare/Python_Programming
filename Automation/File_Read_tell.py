@@ -6,11 +6,11 @@ def main():
         print("File offset is : ", fobj.tell())
 
         Data = fobj.read()
-
-        print("File offset is : ", fobj.tell())
         
         print(Data)
 
+        print("File offset is : ", fobj.tell())
+        
         fobj.close()
 
     except FileNotFoundError as fobj:
