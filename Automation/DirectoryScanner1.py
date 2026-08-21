@@ -27,7 +27,7 @@ def main():
             print("Directory name should be absolute path")
 
         else:
-            DirectoryName = sys.argv[1]
+            DirectoryScanner(sys.argv[1])
             
     else:
         print("Invalid number of arguments")
