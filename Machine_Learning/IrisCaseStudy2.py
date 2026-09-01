@@ -14,7 +14,5 @@ def main():
     print("Dependent variable ate : ") 
     print(Dataset.target_names)
 
-    print(Dataset)
-
 if __name__ == "__main__":
     main()
