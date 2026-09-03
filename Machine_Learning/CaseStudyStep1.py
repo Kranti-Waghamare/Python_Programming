@@ -7,7 +7,7 @@ Border = "-"*30
 ###############################################################
 
 print(Border)
-print("Step 1 :  Load the dataset")
+print("Step 1 : Load the dataset")
 print(Border)
 
 DataPath = "iris.csv"
