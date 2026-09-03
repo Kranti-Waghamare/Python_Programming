@@ -27,7 +27,7 @@ print(Border)
 print("Step 2 :  Exploratory Data Analysis (EDA)")
 print(Border)
 
-print("Shape of dataset : ",df.shape)
+print("Shape of dataset: ",df.shape)
 
 print("Columns names : ",list(df.columns))
 
