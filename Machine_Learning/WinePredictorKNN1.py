@@ -9,6 +9,9 @@ from sklearn.preprocessing import StandardScaler
 def MarvellousClassifier(DataPath):
     Border = "-"*40
 
+    #############################################################
+    # Step 1 : Load the Dataset from CSV file
+    #############################################################
     print(Border)
     print("Step 1 : Load the Dataset from CSV file")
     print(Border)
