@@ -56,6 +56,7 @@ def MarvellousRegression(DataPath):
     print(Border)
 
     print(df.describe())
+    
 
 def main():
     MarvellousRegression("Advertising.csv")
