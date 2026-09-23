@@ -11,7 +11,6 @@ from sklearn.metrics import mean_squared_error, r2_score
 df = pd.read_csv("california_housing.csv")
 
 print("Shape of Dataset : ",df.shape)
-
 print("First few records : ",df.head())
 
 ################################################################
