@@ -224,3 +224,5 @@ if new_prediction[0] == 1:
     print("Prediction : Placed")
 else:
     print("Prediction : Not Placed")
+
+    
