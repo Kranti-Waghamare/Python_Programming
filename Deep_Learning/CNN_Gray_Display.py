@@ -7,6 +7,8 @@ img = img.resize((28, 28))
 
 pixels = np.array(img)
 
+print("Image size : ", pixels.shape)
+
 print("Pixel values : ")
 print(pixels)
 
