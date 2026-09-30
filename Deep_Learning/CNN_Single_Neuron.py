@@ -17,3 +17,4 @@ print("Weighted sum : ", weighted_sum.numpy())
 output = tf.sigmoid(weighted_sum)
 
 print("Output : ",output.numpy())
+
